@@ -1,9 +1,9 @@
-import { 
-  Code2, 
-  Database, 
-  LineChart, 
-  Terminal, 
-  Layout, 
+import {
+  Code2,
+  Database,
+  LineChart,
+  Terminal,
+  Layout,
   Server,
   Briefcase,
   GraduationCap,
@@ -89,7 +89,7 @@ export const EXPERIENCE = [
     title: "Bachelor of Information Systems",
     organization: "University of Information Technology (UIT) – VNU-HCM",
     location: "Ho Chi Minh City",
-    period: "2023 - Present (Expected 2028)",
+    period: "2023 - Present (Expected 2027)",
     description: [
       "Coursework: Database Systems, Business Intelligence, Data Warehousing, Systems Analysis and Design.",
       "Developed projects in Python, SQL, and Power BI focused on exploratory data analysis and data visualization."
@@ -125,19 +125,6 @@ export const PROJECTS = [
     github: "https://github.com/hoangdeptrai1010",
     demo: "#"
   },
-  {
-    id: 3,
-    title: "Executive Business Intelligence Suite",
-    category: "Power BI",
-    paragraphs: [
-      "Business Problem & Data: C-suite executives relied on manual, slow-loading Excel sheets to track regional profitability. I integrated multi-million-row financial datasets across different business divisions.",
-      "Methodology & Tools: I extracted and cleaned the data using Power Query, built a relational star schema, and optimized calculations using DAX inside Power BI.",
-      "Insights & Decisions: The automated dashboard revealed that a single product line accounted for 70% of Q3 revenue growth, while two regions were operating at a loss. Executives used this to reallocate budget to profitable regions."
-    ],
-    tech: ["Power BI", "DAX", "Power Query", "Excel", "SQL"],
-    github: "https://github.com/hoangdeptrai1010",
-    demo: "#"
-  }
 ];
 
 export const CERTIFICATES = [
