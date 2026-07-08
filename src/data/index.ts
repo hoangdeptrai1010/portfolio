@@ -38,34 +38,33 @@ export const SOCIAL_LINKS = [
   { name: "LeetCode", url: "https://leetcode.com/u/hoangdeptrai1010/", icon: SiLeetcode },
 ];
 
-export const TECH_STACK = {
-  Programming: [
-    { name: "SQL", icon: Database, proficiency: 95 },
-    { name: "Python", icon: FaPython, proficiency: 85 },
-    { name: "Java", icon: FaJava, proficiency: 80 },
-    { name: "JavaScript", icon: SiJavascript, proficiency: 80 },
-    { name: "PHP", icon: FaPhp, proficiency: 70 }
-  ],
-  DataAnalytics: [
-    { name: "Power BI", icon: FaChartBar, proficiency: 95 },
-    { name: "Excel", icon: FileSpreadsheet, proficiency: 90 },
-    { name: "Power Query", icon: MonitorCheck, proficiency: 90 },
-    { name: "Pivot Tables", icon: FileSpreadsheet, proficiency: 90 },
-    { name: "DAX", icon: FaCode, proficiency: 85 }
-  ],
-  Database: [
-    { name: "Oracle", icon: FaDatabase, proficiency: 90 },
-    { name: "MySQL", icon: SiMysql, proficiency: 85 },
-    { name: "PostgreSQL", icon: SiPostgresql, proficiency: 80 }
-  ],
-  Tools: [
-    { name: "Git", icon: GitBranch, proficiency: 90 },
-    { name: "GitHub", icon: FaGithub, proficiency: 90 },
-    { name: "VS Code", icon: FaCode, proficiency: 95 },
-    { name: "IntelliJ", icon: FaCode, proficiency: 80 },
-    { name: "Linux", icon: FaUbuntu, proficiency: 80 }
-  ]
-};
+export const TECH_STACK = [
+  {
+    category: "Programming Languages",
+    skills: [
+      { name: "SQL", icon: Database },
+      { name: "Python", icon: FaPython },
+      { name: "Java", icon: FaJava },
+      { name: "PHP", icon: FaPhp }
+    ],
+    description: "I have developed strong logical thinking and problem-solving skills through my experience with various programming languages. I utilize SQL for complex database querying and management, and Python for data manipulation, analysis, and task automation. Additionally, my background in Java and PHP from academic projects has provided me with a solid foundation in object-oriented programming and application development."
+  },
+  {
+    category: "Data Visualization",
+    skills: [
+      { name: "Power BI", icon: FaChartBar },
+      { name: "Excel", icon: FileSpreadsheet }
+    ],
+    description: "I specialize in transforming raw data into meaningful narratives. Using Power BI and Excel, I excel at data cleaning, modeling, and designing highly interactive dashboards. These tools allow me to uncover hidden trends, identify operational bottlenecks, and provide clear, actionable insights that drive data-informed business decisions."
+  },
+  {
+    category: "Other Tools",
+    skills: [
+      { name: "Git", icon: GitBranch }
+    ],
+    description: "I use Git for version control to track changes and manage source code efficiently. It helps me maintain a clean project history, collaborate effectively, and ensure secure and organized deployment of my analytical projects."
+  }
+];
 
 export const EXPERIENCE = [
   {
