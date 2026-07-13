@@ -87,12 +87,23 @@ export function Hero() {
           >
             <Magnetic strength={0.4}>
               <a
-                href="/assets/Hoang-Nguyen-Trieu-TopCV.vn-010726.100236.pdf"
+                href="/NGUYENTREUHOANG_DATAANALYST.pdf"
                 target="_blank"
-                className="group relative flex items-center justify-center gap-3 px-8 py-4 bg-primary text-white rounded-full font-bold hover:scale-105 transition-transform duration-300 hover-target overflow-hidden shadow-[0_0_20px_rgba(37,99,235,0.4)]"
+                className="group relative flex items-center justify-center gap-2 px-6 py-4 bg-primary text-white rounded-full font-bold hover:scale-105 transition-transform duration-300 hover-target overflow-hidden shadow-[0_0_20px_rgba(37,99,235,0.4)]"
               >
                 <Download size={20} className="relative z-10" />
-                <span className="relative z-10">Download CV</span>
+                <span className="relative z-10">Data Analyst CV</span>
+              </a>
+            </Magnetic>
+
+            <Magnetic strength={0.4}>
+              <a
+                href="/NguyenTrieuHoang_BA.pdf"
+                target="_blank"
+                className="group relative flex items-center justify-center gap-2 px-6 py-4 bg-primary text-white rounded-full font-bold hover:scale-105 transition-transform duration-300 hover-target overflow-hidden shadow-[0_0_20px_rgba(37,99,235,0.4)]"
+              >
+                <Download size={20} className="relative z-10" />
+                <span className="relative z-10">Business Analyst CV</span>
               </a>
             </Magnetic>
 
